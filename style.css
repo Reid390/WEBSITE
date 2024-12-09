@@ -1,0 +1,189 @@
+
+.main{
+	width:100%;
+	background: url(IMG_2825.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 120vh;
+}
+
+.navbar{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+
+.icon{
+	width:200px;
+	float: left;
+	height:70px;
+}
+
+.Name{
+	color: white;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+
+}
+
+.menu{
+	width:400px;
+	float: left;
+	height: 70px;
+}
+
+.menu p{
+	width:650px;
+	margin-left: 325px;
+	padding-top: 200px;
+	z-index: 1;
+	position: relative;
+	font-family: Arial;
+	line-height: 1.5;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li{
+	list-style: none;
+	margin-left: 130px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+	color: gray;
+}
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}
+.content h2{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	margin-top: 14%;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.content .cn{
+	width: 160px;
+	height: 40px;
+	background: white;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 515px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+
+.content .cn a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.cn:hover{
+	background-color: gray;
+}
+.resume-content{
+	width:1200px;
+	height:614px;
+	margin:auto;
+	background-color: white;
+	position: relative;
+	margin-top: 100px;
+	z-index: 0;
+}
+.menu button{
+	width:160px;
+	height:40px;
+	background:coral;
+	border: none;
+	z-index: 1;
+	position: relative;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+	margin-left: 550px;
+	margin-top: 100px;
+}
+.menu button a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.doc-content{
+	width: 100%;
+	height:100vh;
+}
+.slides{
+	width: 100%;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	color: white;
+	background: url(IMG_2825.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.slides iframe{
+	width: 1200px;
+	height:614px;
+}
+h3{
+	font-family: Arial;
+	font-size: 35px;
+	text-align: center;
+}
+.doc-content button{
+	width:160px;
+	height:40px;
+	background:coral;
+	border: none;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+	margin-left: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.doc-content button a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.slides-graphics{
+	width:100%px;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+.slides-graphics img{
+	width: 1200px;
+	height:614px;
+}
